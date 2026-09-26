@@ -1,0 +1,6 @@
+{
+  "name": "MoriSan - Soluciones y Decoración en Cortinas",
+  "description": "Sitio oficial de MoriSan: soluciones integrales de cortinas técnicas, persianas, toldos de exterior y automatización a la medida para proyectos residenciales y corporativos.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

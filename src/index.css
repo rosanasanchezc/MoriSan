@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Lato', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: 'Montserrat', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --color-terracotta: #A35C37;
+  --color-terracotta-hover: #8C4C2B;
+  --color-terracotta-soft: #F9F3EE;
+  --color-charcoal: #2B2B2B;
+  --color-graphite: #1C1C1C;
+  --color-bone: #FAF9F6;
+  --color-bone-warm: #F4F1EA;
+  --color-bone-border: #E5E1D8;
+}
+
+body {
+  font-family: var(--font-sans);
+  color: var(--color-charcoal);
+  background-color: #FFFFFF;
+}
+
+h1, h2, h3, h4, h5, h6, .font-display {
+  font-family: var(--font-display);
+}
+
