@@ -1,5 +1,6 @@
 import React from 'react';
 import { MessageCircle, Calendar, ArrowDown, Shield, Check } from 'lucide-react';
+import heroLuxuryCurtains from '../assets/images/hero_luxury_curtains_1790378763822.jpg';
 
 interface HeroProps {
   onOpenBooking: (projectType?: 'residencial' | 'corporativo') => void;
@@ -93,7 +94,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
               {/* Main Visual Asset */}
               <div className="relative aspect-[4/3] sm:aspect-[16/11] overflow-hidden bg-stone-100 shadow-xl border border-stone-200">
                 <img
-                  src="/src/assets/images/hero_luxury_curtains_1790378763822.jpg"
+                  src={heroLuxuryCurtains}
                   alt="Salón residencial moderno con cortinas MoriSan filtrando la luz natural"
                   className="w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                   loading="eager"

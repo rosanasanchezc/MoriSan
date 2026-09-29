@@ -58,7 +58,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
               <img
                 src={item.image}
                 alt={item.name}
-                className="w-full h-full object-cover"
+                className="catalog-product-image"
                 loading="lazy"
               />
               <div className="absolute bottom-3 left-3 bg-[#2B2B2B]/90 backdrop-blur-md text-white text-[11px] font-display px-3 py-1 tracking-wide">

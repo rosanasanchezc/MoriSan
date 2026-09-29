@@ -119,7 +119,7 @@ export const CatalogSection: React.FC<CatalogSectionProps> = ({
                   <img
                     src={item.image}
                     alt={item.name}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                    className="catalog-product-image transition-transform duration-500 group-hover:scale-105"
                     loading="lazy"
                   />
                 ) : (
