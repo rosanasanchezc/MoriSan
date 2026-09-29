@@ -1,3 +1,17 @@
+import catalogCurtainsSheer from '../assets/images/catalog_curtains_sheer_1790378774946.jpg';
+import heroLuxuryCurtains from '../assets/images/hero_luxury_curtains_1790378763822.jpg';
+import cortinasPlizadas from '../assets/images/cortinas_plizadas_1790382174534.jpg';
+import cortinaZebra from '../assets/images/cortina_zebra_1790382526347.jpg';
+import rollerShades from '../assets/images/roller_shades_1790382812205.jpg';
+import cortinaRomana from '../assets/images/cortina_romana_1790382946079.jpg';
+import panelJapones from '../assets/images/panel_japones_1790383165560.jpg';
+import catalogBlindsWood from '../assets/images/catalog_blinds_wood_1790378788032.jpg';
+import catalogOutdoorAwnings from '../assets/images/catalog_outdoor_awnings_1790378796137.jpg';
+import toldoClaraboya from '../assets/images/toldo_claraboya_1790384205600.jpg';
+import toldoVerticalExt from '../assets/images/toldo_vertical_ext_1790384420024.jpg';
+import motorizacionControl from '../assets/images/motorizacion_control_1790383704781.jpg';
+import limpiezaCortinas from '../assets/images/limpieza_cortinas_1790384011997.jpg';
+
 export interface CatalogItem {
   id: string;
   name: string;
@@ -40,7 +54,7 @@ export const CATALOG_ITEMS: CatalogItem[] = [
     ],
     idealFor: 'Dormitorios máster, salas de TV, oficinas ejecutivas y espacios con alta exposición solar directa.',
     warranty: '2 años en telas de importación y sistemas motrices',
-    image: '/src/assets/images/catalog_curtains_sheer_1790378774946.jpg',
+    image: catalogCurtainsSheer,
     fallbackIcon: 'Layers'
   },
   {
@@ -64,7 +78,7 @@ export const CATALOG_ITEMS: CatalogItem[] = [
     ],
     idealFor: 'Salas principales, comedores formales, penthouses y áreas sociales de doble altura.',
     warranty: '2 años en velos técnicos, sujeciones y mecanismos',
-    image: '/src/assets/images/hero_luxury_curtains_1790378763822.jpg',
+    image: heroLuxuryCurtains,
     fallbackIcon: 'Sun'
   },
   {
@@ -88,7 +102,7 @@ export const CATALOG_ITEMS: CatalogItem[] = [
     ],
     idealFor: 'Salas principales, comedores de diseño, suites de lujo y ventanales con vista a jardines.',
     warranty: '2 años en confección artesanal, cintas y mecanismos de tracción',
-    image: '/src/assets/images/cortinas_plizadas_1790382174534.jpg',
+    image: cortinasPlizadas,
     fallbackIcon: 'SlidersHorizontal'
   },
   {
@@ -112,7 +126,7 @@ export const CATALOG_ITEMS: CatalogItem[] = [
     ],
     idealFor: 'Oficinas corporativas, dormitorios juveniles, salas de estar y departamentos modernos.',
     warranty: '2 años completos en mecanismos y tejidos',
-    image: '/src/assets/images/cortina_zebra_1790382526347.jpg',
+    image: cortinaZebra,
     fallbackIcon: 'Eye'
   },
   {
@@ -136,7 +150,7 @@ export const CATALOG_ITEMS: CatalogItem[] = [
     ],
     idealFor: 'Proyectos corporativos, salas de conferencias, clínicas, auditorios y residencias modernas.',
     warranty: '2 años en tubos de enrollamiento, embragues y telas técnicas',
-    image: '/src/assets/images/roller_shades_1790382812205.jpg',
+    image: rollerShades,
     fallbackIcon: 'ShieldCheck'
   },
   {
@@ -160,7 +174,7 @@ export const CATALOG_ITEMS: CatalogItem[] = [
     ],
     idealFor: 'Salas de lectura, suites de invitados, vestidores y comedores elegantes.',
     warranty: '2 años en confección y herrajes de tracción',
-    image: '/src/assets/images/cortina_romana_1790382946079.jpg',
+    image: cortinaRomana,
     fallbackIcon: 'FoldHorizontal'
   },
   {
@@ -184,7 +198,7 @@ export const CATALOG_ITEMS: CatalogItem[] = [
     ],
     idealFor: 'Puertas corredizas a jardines o piscinas, lofts de doble altura y divisiones de oficinas.',
     warranty: '2 años en rielería de aluminio y rodamientos de teflón',
-    image: '/src/assets/images/panel_japones_1790383165560.jpg',
+    image: panelJapones,
     fallbackIcon: 'Columns3'
   },
 
@@ -210,7 +224,7 @@ export const CATALOG_ITEMS: CatalogItem[] = [
     ],
     idealFor: 'Estudios jurídicos, bibliotecas privadas, despachos presidenciales y residencias de lujo.',
     warranty: '2 años en duelas de madera, cintas y cabezal metálico',
-    image: '/src/assets/images/catalog_blinds_wood_1790378788032.jpg',
+    image: catalogBlindsWood,
     fallbackIcon: 'TreePine'
   },
 
@@ -236,7 +250,7 @@ export const CATALOG_ITEMS: CatalogItem[] = [
     ],
     idealFor: 'Terrazas de áticos, restaurantes, porches residenciales, zonas de barbacoa y albercas.',
     warranty: '2 años en lonas técnicas, brazos de tensión y motores Somfy / MoriSan Pro',
-    image: '/src/assets/images/catalog_outdoor_awnings_1790378796137.jpg',
+    image: catalogOutdoorAwnings,
     fallbackIcon: 'Umbrella'
   },
   {
@@ -260,7 +274,7 @@ export const CATALOG_ITEMS: CatalogItem[] = [
     ],
     idealFor: 'Pérgolas de jardín, terrazas residenciales, patios interiores, techos de cristal, claraboyas y solariums.',
     warranty: '2 años en tejidos acrílicos, guías de aluminio y accesorios de fijación',
-    image: '/src/assets/images/toldo_claraboya_1790384205600.jpg',
+    image: toldoClaraboya,
     fallbackIcon: 'SunMedium'
   },
   {
@@ -284,7 +298,7 @@ export const CATALOG_ITEMS: CatalogItem[] = [
     ],
     idealFor: 'Porches exteriores, áreas de piscina, pérgolas bioclimáticas, terrazas de edificios y balcones expuestos.',
     warranty: '2 años en motores estancos, cofres de aluminio y tejidos técnicos de exterior',
-    image: '/src/assets/images/toldo_vertical_ext_1790384420024.jpg',
+    image: toldoVerticalExt,
     fallbackIcon: 'SlidersVertical'
   },
 
@@ -310,7 +324,7 @@ export const CATALOG_ITEMS: CatalogItem[] = [
     ],
     idealFor: 'Casas inteligentes, ventanales inaccesibles, auditorios corporativos y salas de cine en casa.',
     warranty: '2 años de garantía directa en todos los motores, baterías y pasarelas inteligentes',
-    image: '/src/assets/images/motorizacion_control_1790383704781.jpg',
+    image: motorizacionControl,
     fallbackIcon: 'Cpu'
   },
 
@@ -336,7 +350,7 @@ export const CATALOG_ITEMS: CatalogItem[] = [
     ],
     idealFor: 'Residencias, oficinas con alto tráfico, clínicas y todo tipo de cortinas o persianas con más de 1 año de uso.',
     warranty: 'Garantía de servicio técnico y repuestos originales MoriSan',
-    image: '/src/assets/images/limpieza_cortinas_1790384011997.jpg',
+    image: limpiezaCortinas,
     fallbackIcon: 'Sparkles'
   }
 ];
