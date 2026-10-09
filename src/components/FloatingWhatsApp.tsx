@@ -22,10 +22,10 @@ export const FloatingWhatsApp: React.FC = () => {
 
       {/* Floating CTA Button */}
       <a
-        href="https://wa.me/593997777776?text=Hola%20MoriSan,%20deseo%20asesor%C3%ADa%20y%20conocer%20m%C3%A1s%20sobre%20sus%20cortinas%20y%20persianas."
+        href="https://wa.me/593984684270?text=Hola%20MoriSan,%20deseo%20asesor%C3%ADa%20y%20conocer%20m%C3%A1s%20sobre%20sus%20cortinas%20y%20persianas."
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Contactar a MoriSan por WhatsApp al +593 099 777 7776"
+        aria-label="Contactar a MoriSan por WhatsApp al +593984684270"
         className="w-13 h-13 rounded-full bg-[#A35C37] hover:bg-[#8C4C2B] text-white flex items-center justify-center shadow-lg hover:shadow-xl transition-all duration-200 hover:scale-105 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#A35C37] focus-visible:ring-offset-2"
       >
         <MessageCircle className="w-6 h-6 fill-white" />

@@ -107,7 +107,7 @@ export const ProcessMethod: React.FC<ProcessMethodProps> = ({ onOpenBooking }) =
               Agendar Visita Técnica Ahora
             </button>
             <a
-              href="https://wa.me/593997777776?text=Hola%20MoriSan,%20quisiera%20agendar%20una%20visita%20t%C3%A9cnica%20con%20toma%20de%20medidas."
+              href="https://wa.me/593984684270?text=Hola%20MoriSan,%20quisiera%20agendar%20una%20visita%20t%C3%A9cnica%20con%20toma%20de%20medidas."
               target="_blank"
               rel="noopener noreferrer"
               className="py-3 px-5 border border-stone-700 hover:border-stone-500 text-stone-200 hover:text-white font-display font-medium text-xs tracking-wider uppercase transition-colors text-center cursor-pointer whitespace-nowrap"

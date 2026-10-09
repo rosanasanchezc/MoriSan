@@ -29,7 +29,7 @@ ${message ? `• *Mensaje:* ${message}` : ''}
 _Deseo agendar una visita técnica y cotización formal._`;
 
     const encoded = encodeURIComponent(text);
-    window.open(`https://wa.me/593997777776?text=${encoded}`, '_blank', 'noopener,noreferrer');
+    window.open(`https://wa.me/593984684270?text=${encoded}`, '_blank', 'noopener,noreferrer');
   };
 
   return (
@@ -59,7 +59,7 @@ _Deseo agendar una visita técnica y cotización formal._`;
               
               {/* WhatsApp Card */}
               <a
-                href="https://wa.me/593997777776"
+                href="https://wa.me/593984684270"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="p-5 bg-white border border-stone-200 hover:border-[#A35C37] transition-all flex items-start gap-4 group shadow-sm block"
@@ -72,7 +72,7 @@ _Deseo agendar una visita técnica y cotización formal._`;
                     WhatsApp & Asesoría Inmediata
                   </span>
                   <span className="font-display font-bold text-base sm:text-lg text-[#2B2B2B] group-hover:text-[#A35C37] transition-colors tabular-nums">
-                    +593 099 777 7776
+                    +593984684270
                   </span>
                   <p className="text-xs text-stone-500 mt-0.5">
                     Respuesta ágil de lunes a sábado para coordinar visitas técnicas
@@ -222,7 +222,7 @@ _Deseo agendar una visita técnica y cotización formal._`;
                       required
                       value={phone}
                       onChange={(e) => setPhone(e.target.value)}
-                      placeholder="+593 099 777 7776"
+                      placeholder="+593984684270"
                       className="w-full px-4 py-2.5 bg-stone-50 border border-stone-200 text-sm focus:outline-none focus:border-[#A35C37] focus:bg-white transition-colors"
                     />
                   </div>
@@ -277,7 +277,7 @@ _Deseo agendar una visita técnica y cotización formal._`;
                     className="flex-1 inline-flex items-center justify-center gap-2 py-3.5 px-5 bg-[#A35C37] hover:bg-[#8C4C2B] text-white font-display font-semibold text-xs tracking-wider uppercase transition-colors shadow-sm cursor-pointer whitespace-nowrap"
                   >
                     <MessageCircle className="w-4 h-4" />
-                    <span>Enviar a WhatsApp (+593 099 777 7776)</span>
+                    <span>Enviar a WhatsApp (+593984684270)</span>
                   </button>
 
                   <button

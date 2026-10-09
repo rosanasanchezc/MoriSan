@@ -47,7 +47,7 @@ ${notes ? `• *Detalles:* ${notes}` : ''}
 _Deseo coordinar una visita técnica y revisión de muestrarios en sitio._`;
 
     const encoded = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/593997777776?text=${encoded}`;
+    const whatsappUrl = `https://wa.me/593984684270?text=${encoded}`;
     window.open(whatsappUrl, '_blank', 'noopener,noreferrer');
   };
 
@@ -149,7 +149,7 @@ _Deseo coordinar una visita técnica y revisión de muestrarios en sitio._`;
                     required
                     value={phone}
                     onChange={(e) => setPhone(e.target.value)}
-                    placeholder="Ej. +593 099 777 7776"
+                    placeholder="Ej. +593984684270"
                     className="w-full px-3.5 py-2.5 bg-stone-50 border border-stone-200 text-sm focus:outline-none focus:border-[#A35C37] focus:bg-white transition-colors"
                   />
                 </div>
@@ -297,7 +297,7 @@ _Deseo coordinar una visita técnica y revisión de muestrarios en sitio._`;
                 </div>
                 <div className="flex justify-between">
                   <span className="text-stone-500">Canal directo:</span>
-                  <span className="font-medium text-[#A35C37]">+593 099 777 7776</span>
+                  <span className="font-medium text-[#A35C37]">+593984684270</span>
                 </div>
               </div>
 
