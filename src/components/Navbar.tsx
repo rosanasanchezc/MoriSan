@@ -63,14 +63,14 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
           {/* Zone 3: 1-2 primary actions */}
           <div className="hidden sm:flex items-center gap-3">
             <a
-              href="https://wa.me/593997777776?text=Hola%20MoriSan,%20deseo%20solicitar%20asesor%C3%ADa%20y%20agendar%20una%20visita%20t%C3%A9cnica."
+              href="https://wa.me/593984684270?text=Hola%20MoriSan,%20deseo%20solicitar%20asesor%C3%ADa%20y%20agendar%20una%20visita%20t%C3%A9cnica."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-1.5 px-3 py-2 text-xs font-display font-medium text-stone-700 hover:text-[#A35C37] transition-colors whitespace-nowrap"
               title="Llamada o WhatsApp directo"
             >
               <Phone className="w-3.5 h-3.5 text-[#A35C37]" />
-              <span className="tabular-nums">+593 099 777 7776</span>
+              <span className="tabular-nums">+593984684270</span>
             </a>
 
             <button
@@ -125,13 +125,13 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenBooking }) => {
 
             <div className="pt-6 border-t border-stone-200 space-y-3">
               <a
-                href="https://wa.me/593997777776"
+                href="https://wa.me/593984684270"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 w-full py-2.5 px-4 text-xs font-display font-semibold uppercase tracking-wider text-[#A35C37] bg-[#F9F3EE] border border-[#A35C37]/30"
               >
                 <MessageCircle className="w-4 h-4" />
-                <span>WhatsApp: +593 099 777 7776</span>
+                <span>WhatsApp: +593984684270</span>
               </a>
 
               <button

@@ -7,7 +7,7 @@ interface HeroProps {
 }
 
 export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
-  const whatsappUrl = `https://wa.me/593997777776?text=${encodeURIComponent(
+  const whatsappUrl = `https://wa.me/593984684270?text=${encodeURIComponent(
     'Hola MoriSan, deseo coordinar una visita técnica para asesorarme en cortinas y persianas para mi proyecto.'
   )}`;
 
@@ -65,7 +65,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenBooking }) => {
                 className="inline-flex items-center justify-center gap-2.5 py-3.5 px-6 bg-[#A35C37] hover:bg-[#8C4C2B] text-white font-display font-semibold text-xs tracking-wider uppercase transition-all shadow-sm hover:shadow-md cursor-pointer whitespace-nowrap"
               >
                 <MessageCircle className="w-4 h-4 fill-white/20" />
-                <span>Agendar por WhatsApp (+593 099 777 7776)</span>
+                <span>Agendar por WhatsApp (+593984684270)</span>
               </a>
 
               {/* Secondary Lead Consultation CTA */}

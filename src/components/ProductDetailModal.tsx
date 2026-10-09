@@ -132,7 +132,7 @@ export const ProductDetailModal: React.FC<ProductDetailModalProps> = ({
               <ArrowRight className="w-4 h-4" />
             </button>
             <a
-              href={`https://wa.me/593997777776?text=${encodeURIComponent(
+              href={`https://wa.me/593984684270?text=${encodeURIComponent(
                 `Hola MoriSan, me interesa recibir asesoría y cotización para el producto: ${item.name}. ¿Podemos coordinar una visita técnica?`
               )}`}
               target="_blank"

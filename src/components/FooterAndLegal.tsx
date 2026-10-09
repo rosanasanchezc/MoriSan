@@ -71,13 +71,13 @@ export const FooterAndLegal: React.FC = () => {
 
               <div className="space-y-2 text-xs text-stone-400">
                 <a
-                  href="https://wa.me/593997777776"
+                  href="https://wa.me/593984684270"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-stone-300 hover:text-white transition-colors font-display"
                 >
                   <MessageCircle className="w-4 h-4 text-[#A35C37] shrink-0" />
-                  <span className="tabular-nums">+593 099 777 7776</span>
+                  <span className="tabular-nums">+593984684270</span>
                 </a>
 
                 <a
@@ -96,7 +96,7 @@ export const FooterAndLegal: React.FC = () => {
 
               <div className="pt-2">
                 <a
-                  href="https://wa.me/593997777776?text=Hola%20MoriSan,%20deseo%20agendar%20una%20visita%20t%C3%A9cnica."
+                  href="https://wa.me/593984684270?text=Hola%20MoriSan,%20deseo%20agendar%20una%20visita%20t%C3%A9cnica."
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 py-2 px-3 bg-[#A35C37] hover:bg-[#8C4C2B] text-white text-[11px] font-display font-semibold uppercase tracking-wider transition-colors shadow-sm"
@@ -175,7 +175,7 @@ export const FooterAndLegal: React.FC = () => {
               <div>
                 <strong className="block font-display text-stone-900 mb-1">3. Canales Oficiales de Comunicación:</strong>
                 <p>
-                  Toda interacción oficial se mantendrá a través de nuestras líneas autorizadas: WhatsApp y teléfono <strong>+593 099 777 7776</strong> y correo electrónico corporativo <strong>morisandeco@gmail.com</strong>.
+                  Toda interacción oficial se mantendrá a través de nuestras líneas autorizadas: WhatsApp y teléfono <strong>+593984684270</strong> y correo electrónico corporativo <strong>morisandeco@gmail.com</strong>.
                 </p>
               </div>
 
@@ -248,7 +248,7 @@ export const FooterAndLegal: React.FC = () => {
               <div>
                 <strong className="block font-display text-stone-900 mb-1">4. Proceso de Asistencia Posventa:</strong>
                 <p>
-                  Ante cualquier anomalía de funcionamiento, el cliente deberá reportar la incidencia a <em>morisandeco@gmail.com</em> o al WhatsApp <em>+593 099 777 7776</em>. Un técnico programará una visita de revisión y calibración sin costo dentro del plazo de cobertura.
+                  Ante cualquier anomalía de funcionamiento, el cliente deberá reportar la incidencia a <em>morisandeco@gmail.com</em> o al WhatsApp <em>+593984684270</em>. Un técnico programará una visita de revisión y calibración sin costo dentro del plazo de cobertura.
                 </p>
               </div>
             </div>

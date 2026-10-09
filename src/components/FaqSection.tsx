@@ -81,13 +81,13 @@ export const FaqSection: React.FC<FaqSectionProps> = ({ onOpenBooking }) => {
           </div>
           <div className="flex items-center gap-3 shrink-0">
             <a
-              href="https://wa.me/593997777776?text=Hola%20MoriSan,%20tengo%20una%20pregunta%20espec%C3%ADfica%20sobre%20mi%20proyecto."
+              href="https://wa.me/593984684270?text=Hola%20MoriSan,%20tengo%20una%20pregunta%20espec%C3%ADfica%20sobre%20mi%20proyecto."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-2 py-2.5 px-4 bg-[#A35C37] hover:bg-[#8C4C2B] text-white font-display text-xs font-semibold uppercase tracking-wider transition-colors"
             >
               <MessageCircle className="w-4 h-4" />
-              <span>Chatear al +593 099 777 7776</span>
+              <span>Chatear al +593984684270</span>
             </a>
           </div>
         </div>
